@@ -1,0 +1,56 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Berlin Sans FB";
+}
+
+.barrePrincipale{
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4em;
+}
+.marge{
+    margin: 30px;
+}
+
+.backgroundColor{
+    background-color: rgba(140, 69, 102, 0.8);
+
+}
+
+.colorWhite{
+    color: white;
+}
+
+.imageBG{
+    background-image: url("image_fireworks.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.apresMarge{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.punchline{
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.marginTop{
+    margin-top: 5%;
+}
